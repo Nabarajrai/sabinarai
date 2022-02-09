@@ -14,9 +14,21 @@ export default function Home() {
     .then((response) => console.log(response))
     .catch((err) => console.error(err));
   return (
-    <div className={styles.container}>
-      <div style={{ textAlign: "center", fontSize: "50px" }}>
-        <h1>Hello Sabina I love you very much!</h1>
+    <div
+      className={styles.container}
+      style={{ width: " 1133px", margin: "auto" }}
+    >
+      <div
+        style={{
+          textAlign: "center",
+          fontSize: "50px",
+          boxShadow: "0px 5px 15px black",
+        }}
+      >
+        <div>
+          <h2>Hoi Hoi 😆 😎</h2>
+        </div>
+        <h1>Hello Sabina I love you very 👧 🙋much!</h1>
         <div
           style={{
             display: "flex",
@@ -35,7 +47,7 @@ export default function Home() {
             alt=""
           />
         </div>
-        <div style={{ padding: "50px" }}>
+        <div style={{ padding: "50px", marginBottom: "50px" }}>
           <h2>Thank you Sabina for watching ! </h2>
         </div>
       </div>
